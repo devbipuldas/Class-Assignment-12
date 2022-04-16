@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* heaedr section start */
+.header_sectoin{
+    padding: 15px;
+    background-color: #000000;
+}
+
+
+.header_sectoin .menu ul{
+    text-align: center;
+   
+  
+}
+
+.header_sectoin .menu ul li{
+    display: inline-block;
+    position: relative;
+   
+   
+
+}
+.header_sectoin .menu ul li a{
+    display: inline-block;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    
+    /* margin-left: 15px; */
+}
+
+
+
+/* heaedr section end */
+
+
+/* dropdown menu start */
+
+
+.header_sectoin .menu ul li ul{
+    position:absolute;
+    top: 100%;
+    left: 0;
+    width: 200px; 
+    background-color: rgb(10, 9, 9);
+   
+   
+}
+
+.header_sectoin .menu ul ul{
+    border-top: 4px solid #3a9bdc;
+}
+
+
+
+.header_sectoin .menu ul li ul li{
+  display: block;
+  border-bottom: 1px solid rgb(133, 129, 129,.2);
+  
+}
+
+.header_sectoin .menu ul li ul li a{
+    display: block;
+
+}
+
+.header_sectoin .menu ul li ul li a:hover{
+    background-color: rgb(55, 150, 213);
+   
+} 
+
+.header_sectoin .menu ul li ul{
+  visibility: hidden;
+  opacity: 0;
+
+}
+
+.header_sectoin .menu ul li:hover > ul{
+    visibility: visible;
+    opacity: 1;
+
+}
+/* Dropdown menu 2 */
+
+.header_sectoin .menu ul li ul li ul{
+   top: 0;
+    left: 100%;
+}
+
+
+
+ 
+ /* Dropdown menu 2 */
+
+
+ /* banner section start */
+
+.banner_section{
+text-align: center;
+background-image: url(https://i.postimg.cc/ZRgWgnBz/young-mens.jpg);
+background-size: cover;
+padding: 300px 20px;
+}
+
+
+
+.banner_section .slider h1{
+background-color: #fff;
+display: inline;
+padding: 10px 40px;
+
+}
+
+.banner_section .slider p{
+background-color: #fff;
+padding: 5px 0;
+}
+
+.banner_section .slider a{
+background-color: rgb(211, 34, 34);
+text-decoration: none;
+padding: 10px 15px;
+color: aliceblue;
+}
+
+.banner_section .slider a:hover{
+    background-color: #fff;
+    border: 2px solid red;
+    color: #000000;
+  
+}
+
+ /* banner section end */
+
+
+ /* body section start */
+.body_section{
+padding: 30px;
+margin-top: 30px;
+border: 1px solid rgb(247, 236, 236,.9);
+}
+
+.list_outside{
+list-style: outside;
+}
+
+.list_inside{
+    list-style: inside;
+}
+
+.list_inside h2{
+    text-align: center;
+}
+.body_section .list_style h2{
+text-align: center;
+}
+
+
+
+ /* body section end */
+
+ /* email section */
+
+.email_section{
+padding: 40px;
+background-color: #f2f2f2;
+position: relative;
+}
+
+.emailbox{
+    width: 75%;
+    padding: 10px 15px;
+    border: none;
+    border: 2px solid red;
+    margin-left: 80px;
+}
+
+.email_section .email a:hover{
+ background-color: #fff;
+border: 2px solid red;
+color: #000000;
+    
+}
+
+
+.email_section .email a{
+    text-decoration: none;
+    background-color: #ff0000;
+    display: inline-block;  
+    padding: 10.5px 33px; 
+    color: #fff;
+    position: absolute;
+    top: 40px;
+    left: 984px;
+    
+}
+
+ /* email section */
+
+
+
+ /* list style start */
+ .list_type{
+     text-align: center;
+     margin-top: 50px;
+ }
+
+ .list_style_1{
+     width: 300px;
+     height: 200px;
+     display: inline-block;
+     margin-left: 40px;
+
+ }
+
+ .list_style_1 ul li{
+     list-style-type: lower-roman;
+ }
+
+ .list_style_2 {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 40px;
+  
+}
+.list_style_2 ul li{
+    list-style-type: square;
+}
+.list_style_3{
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 40px;
+}
+.list_style_3 ul li{
+  list-style-type: lower-greek;
+}
+/* list style end */
+
+
+/* footer section start */
+
+.footer_section{
+    padding: 15px;
+    background-color: #000000;
+    text-align: center;
+    color: #ddd;
+ 
+}
+
+.footer_section .social_media ul li{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #5ea5fa;
+    border-radius: 50%;
+    margin-left: 20px;
+   margin-top: 15px;
+}
+
+
+.footer_section .social_media ul li a{
+    color: #000000;
+}
+
+
+.footer_section .social_media ul li:hover{
+    background-color: #fff;
+}
+
+/* footer section end */
+
